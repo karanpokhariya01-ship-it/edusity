@@ -1,0 +1,24 @@
+.common_btn {
+  padding: 15px 35px;
+  background: linear-gradient(90deg, #2b58ff, #4d7bff);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+}
+
+.common_btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.common_btn span {
+  display: flex;
+  align-items: center;
+}

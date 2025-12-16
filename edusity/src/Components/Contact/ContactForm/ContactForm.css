@@ -1,0 +1,21 @@
+.ContactForm form{
+    color: #676767;
+}
+.ContactForm form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.ContactForm form input,.ContactForm form textarea{
+    display: block;
+    width: 100%;
+    background-color: #cccef5;
+    padding: 10px 20px;
+    resize: none;
+    border: none;
+    outline: none;font-size: 15px;
+    margin-bottom: 15px;
+}
+.ContactForm form input::placeholder,
+.ContactForm form textarea::placeholder{
+    color: rgb(39, 39, 39);
+}

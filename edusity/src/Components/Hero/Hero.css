@@ -1,0 +1,41 @@
+.Hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#08003ab3, #08003ab3), url(edusity_assets/hero.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hero .content{
+    text-align: center;
+}
+.Hero .content h1{
+    font-size: 58px;
+    font-weight: bolder;
+    margin-bottom:10px;
+    max-width: 750px;
+    margin-inline: auto;
+}
+.Hero .content p{
+    line-height: 1.2;
+    margin-bottom: 20px;
+    max-width: 650px;
+    margin-inline: auto;
+}
+.explore-btn {
+    background: #fff;
+    color: #212ea0 !important;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.explore-btn:hover {
+    background: #f0f0f0;
+}

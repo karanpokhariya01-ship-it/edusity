@@ -1,0 +1,55 @@
+.About {
+    padding: 60px 0px 30px 0px;
+}
+
+.About .container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.About .container .about_img_section {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.About .container .about_img_section .about_img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.About .container .about_img_section .play_icon {
+    position: absolute;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.About .container .about_content_section {
+    flex-basis: 56%;
+}
+.About .container .about_content_section h2{
+    font-size: 35px;
+    max-width: 400px;
+    margin: 10px 0px;
+}
+/* responsive section */
+/* max-width 850px */
+@media (max-width:850px) {
+     .About .container{
+        flex-direction: column;
+     }
+    .About .container .about_img_section{
+        flex-basis: 100%;
+        order: 2;
+    }
+    .About .container .about_content_section{
+        flex-basis: 100%;
+    }
+}
+/* max-width 850px */
+/* responsive section */
